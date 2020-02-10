@@ -24,13 +24,13 @@ lookup() {
 
 echo "Begin test"
 for recordtype in NS A CNAME PTR SRV TXT MX; do
-	echo $recordtype
+  echo "################ $recordtype ################"
   filen="query$recordtype.txt"
   while IFS= read -r line
     do
       lookup "$dns1" "$line" "$recordtype"
-      #echo "pausing for 1 second"
-      #sleep 1
+      echo "pausing for 1 second"
+      sleep 1
       lookup "$dns2" "$line" "$recordtype"
     done < $filen
 done
