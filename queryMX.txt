@@ -1,0 +1,4 @@
+testem.techcombank.com.vn
+techcombank.com.vn
+techcombank.com.vn
+marketing.techcombank.com.vn

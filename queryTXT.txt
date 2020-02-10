@@ -1,0 +1,6 @@
+_dmarc.marketing.techcombank.com.vn
+techcombank.com.vn
+techcombank.com.vn
+marketing.techcombank.com.vn
+marketing.techcombank.com.vn
+default._domainkey.marketing.techcombank.com.vn
