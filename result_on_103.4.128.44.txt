@@ -1,0 +1,105 @@
+Begin test
+################ NS ################
+dig @103.4.128.44 128.4.103.in-addr.arpa NS .029496263
+dig @103.4.128.44 128.4.103.in-addr.arpa NS .028481939
+dig @103.4.128.44 130.4.103.in-addr.arpa NS .029174281
+dig @103.4.128.44 130.4.103.in-addr.arpa NS .028990961
+dig @103.4.128.44 techcombank.com.vn NS .029127829
+dig @103.4.128.44 techcombank.com.vn NS .028580466
+dig @103.4.128.44 marketing.techcombank.com.vn NS .033316565
+################ A ################
+dig @103.4.128.44 acs.techcombank.com.vn A .028102669
+dig @103.4.128.44 api.techcombank.com.vn A .027988089
+dig @103.4.128.44 bommeetings.techcombank.com.vn A .028034372
+dig @103.4.128.44 cib.techcombank.com.vn A .028597223
+dig @103.4.128.44 e-learning.techcombank.com.vn A .027862682
+dig @103.4.128.44 edoc.techcombank.com.vn A .027984354
+dig @103.4.128.44 emmcore.techcombank.com.vn A .025365761
+dig @103.4.128.44 emmsentry.techcombank.com.vn A .025243146
+dig @103.4.128.44 exchange.techcombank.com.vn A .028884445
+dig @103.4.128.44 feb.techcombank.com.vn A .028820405
+dig @103.4.128.44 ganketbenlau.techcombank.com.vn A 2.028115754
+dig @103.4.128.44 hoadondientu.techcombank.com.vn A .028147389
+dig @103.4.128.44 ib.techcombank.com.vn A .025830413
+dig @103.4.128.44 ir.techcombank.com.vn A .027999204
+dig @103.4.128.44 m.techcombank.com.vn A .029238183
+dig @103.4.128.44 macs.techcombank.com.vn A .027870668
+dig @103.4.128.44 mcorp.techcombank.com.vn A .025187893
+dig @103.4.128.44 mmisvstm.techcombank.com.vn A .027947785
+dig @103.4.128.44 mplus.techcombank.com.vn A 2.029517345
+dig @103.4.128.44 mpluscustomer.techcombank.com.vn A .030055419
+dig @103.4.128.44 mstatic.techcombank.com.vn A .028436738
+dig @103.4.128.44 pib.techcombank.com.vn A .027550566
+dig @103.4.128.44 pmss.techcombank.com.vn A .027930086
+dig @103.4.128.44 ras.techcombank.com.vn A .027366182
+dig @103.4.128.44 redlink.techcombank.com.vn A .027996020
+dig @103.4.128.44 salesupport.techcombank.com.vn A .027981991
+dig @103.4.128.44 scf.techcombank.com.vn A 2.025812072
+dig @103.4.128.44 survey.techcombank.com.vn A .029063223
+dig @103.4.128.44 tcsavings.techcombank.com.vn A .028773650
+dig @103.4.128.44 techcombank.com.vn A .025866829
+dig @103.4.128.44 tib.techcombank.com.vn A .029349352
+dig @103.4.128.44 vinhomes.techcombank.com.vn A .027861676
+dig @103.4.128.44 www.redlink.techcombank.com.vn A .028618494
+dig @103.4.128.44 www.techcombank.com.vn A .027974039
+dig @103.4.128.44 jiramep.techcombank.com.vn A 2.029246527
+dig @103.4.128.44 api-test.techcombank.com.vn A .029213644
+dig @103.4.128.44 mail1.techcombank.com.vn A .028296345
+dig @103.4.128.44 webmail.marketing.techcombank.com.vn A .028205745
+dig @103.4.128.44 webmail.techcombank.com.vn A .028593724
+dig @103.4.128.44 confluencemep.techcombank.com.vn A .029492983
+dig @103.4.128.44 ngayhoithethaodulich.techcombank.com.vn A .029084599
+dig @103.4.128.44 legacy.techcombank.com.vn A .028936063
+dig @103.4.128.44 chuongtrinhganketbenlau.techcombank.com.vn A .028274034
+dig @103.4.128.44 nganhanguytin.techcombank.com.vn A 2.029066405
+dig @103.4.128.44 gps.techcombank.com.vn A .028434821
+dig @103.4.128.44 its.techcombank.com.vn A .028615822
+dig @103.4.128.44 tcbftp.techcombank.com.vn A .025696892
+dig @103.4.128.44 fastmobile.techcombank.com.vn A 2.026707561
+dig @103.4.128.44 mdm.techcombank.com.vn A .029064307
+dig @103.4.128.44 mail.techcombank.com.vn A .028662207
+dig @103.4.128.44 futures.techcombank.com.vn A .025747196
+dig @103.4.128.44 pos.techcombank.com.vn A .027760563
+dig @103.4.128.44 acstest.techcombank.com.vn A .027803546
+dig @103.4.128.44 fmp.techcombank.com.vn A .028360473
+dig @103.4.128.44 ras0.techcombank.com.vn A .028049171
+dig @103.4.128.44 securities.techcombank.com.vn A .027968463
+dig @103.4.128.44 estm.techcombank.com.vn A 2.028942646
+dig @103.4.128.44 tlspos.techcombank.com.vn A .028056524
+dig @103.4.128.44 exp-e-01.techcombank.com.vn A .028542908
+dig @103.4.128.44 ras1.techcombank.com.vn A .028065731
+dig @103.4.128.44 tmspos.techcombank.com.vn A .028333248
+dig @103.4.128.44 learning.techcombank.com.vn A .025047289
+dig @103.4.128.44 vincity.techcombank.com.vn A .027929557
+dig @103.4.128.44 ns1.techcombank.com.vn A .028139109
+dig @103.4.128.44 ns2.techcombank.com.vn A .028133546
+dig @103.4.128.44 ebank.techcombank.com.vn A .027877990
+dig @103.4.128.44 vpn.techcombank.com.vn A 2.028452614
+dig @103.4.128.44 lotusapp.techcombank.com.vn A .028880615
+dig @103.4.128.44 marketing.techcombank.com.vn A .028777629
+dig @103.4.128.44 sftp.techcombank.com.vn A .028341573
+dig @103.4.128.44 mail.mercuryservices.com.vn A .029321072
+dig @103.4.128.44 botlathem.techcombank.com.vn A .025742356
+dig @103.4.128.44 mbtest.techcombank.com.vn A .029155333
+dig @103.4.128.44 khuyenmaithe.techcombank.com.vn A .025771463
+dig @103.4.128.44 tracuubaolanh.techcombank.com.vn A 2.026427308
+dig @103.4.128.44 pos2019.techcombank.com.vn A .026189376
+################ CNAME ################
+dig @103.4.128.44 tech CNAME .025697256
+dig @103.4.128.44 k1._domainkey.marketing.techcombank.com.vn CNAME .029393560
+################ PTR ################
+dig @103.4.128.44 89.128.4.103.in-addr.arpa PTR .028205368
+################ SRV ################
+dig @103.4.128.44 _collab-edge._tls.techcombank.com.vn SRV .029456685
+################ TXT ################
+dig @103.4.128.44 _dmarc.marketing.techcombank.com.vn TXT .028060033
+dig @103.4.128.44 techcombank.com.vn TXT .027567311
+dig @103.4.128.44 techcombank.com.vn TXT .028080546
+dig @103.4.128.44 marketing.techcombank.com.vn TXT .028801798
+dig @103.4.128.44 marketing.techcombank.com.vn TXT .028968604
+################ MX ################
+dig @103.4.128.44 testem.techcombank.com.vn MX .027967840
+dig @103.4.128.44 techcombank.com.vn MX .028139111
+dig @103.4.128.44 techcombank.com.vn MX .025463216
+End test
+Number of error = 0
