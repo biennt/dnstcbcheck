@@ -1,0 +1,272 @@
+Begin test
+################ NS ################
+dig @103.4.128.8 128.4.103.in-addr.arpa NS .029023188
+dig @103.4.130.8 128.4.103.in-addr.arpa NS .030326475
+dig @103.4.128.8 128.4.103.in-addr.arpa NS .025371725
+dig @103.4.130.8 128.4.103.in-addr.arpa NS .028809611
+dig @103.4.128.8 130.4.103.in-addr.arpa NS .027996933
+dig @103.4.130.8 130.4.103.in-addr.arpa NS .026708872
+dig @103.4.128.8 130.4.103.in-addr.arpa NS .027228239
+dig @103.4.130.8 130.4.103.in-addr.arpa NS .024945219
+dig @103.4.128.8 techcombank.com.vn NS .028068769
+dig @103.4.130.8 techcombank.com.vn NS .030075434
+dig @103.4.128.8 techcombank.com.vn NS .034049092
+dig @103.4.130.8 techcombank.com.vn NS .029668509
+dig @103.4.128.8 marketing.techcombank.com.vn NS .028633339
+dig @103.4.130.8 marketing.techcombank.com.vn NS .027718062
+################ A ################
+dig @103.4.128.8 acs.techcombank.com.vn A .027260930
+dig @103.4.130.8 acs.techcombank.com.vn A .027439015
+dig @103.4.128.8 api.techcombank.com.vn A .025152626
+dig @103.4.130.8 api.techcombank.com.vn A .028795187
+dig @103.4.128.8 bommeetings.techcombank.com.vn A .027469111
+dig @103.4.130.8 bommeetings.techcombank.com.vn A .029355173
+dig @103.4.128.8 cib.techcombank.com.vn A .025584014
+dig @103.4.130.8 cib.techcombank.com.vn A .028096667
+dig @103.4.128.8 e-learning.techcombank.com.vn A .025054434
+dig @103.4.130.8 e-learning.techcombank.com.vn A .028202112
+dig @103.4.128.8 edoc.techcombank.com.vn A .028795530
+dig @103.4.130.8 edoc.techcombank.com.vn A .028163818
+dig @103.4.128.8 emmcore.techcombank.com.vn A .028448548
+dig @103.4.130.8 emmcore.techcombank.com.vn A .028517805
+dig @103.4.128.8 emmsentry.techcombank.com.vn A .028078351
+dig @103.4.130.8 emmsentry.techcombank.com.vn A .028922523
+dig @103.4.128.8 exchange.techcombank.com.vn A .025114999
+dig @103.4.130.8 exchange.techcombank.com.vn A .025660106
+dig @103.4.128.8 feb.techcombank.com.vn A .028698090
+dig @103.4.130.8 feb.techcombank.com.vn A .028728501
+dig @103.4.128.8 ganketbenlau.techcombank.com.vn A .029150994
+dig @103.4.130.8 ganketbenlau.techcombank.com.vn A .028201537
+dig @103.4.128.8 hoadondientu.techcombank.com.vn A .025290107
+dig @103.4.130.8 hoadondientu.techcombank.com.vn A .030188840
+dig @103.4.128.8 ib.techcombank.com.vn A .029410930
+dig @103.4.130.8 ib.techcombank.com.vn A .029028001
+dig @103.4.128.8 ir.techcombank.com.vn A .028301366
+dig @103.4.130.8 ir.techcombank.com.vn A .029470747
+dig @103.4.128.8 m.techcombank.com.vn A .028723556
+dig @103.4.130.8 m.techcombank.com.vn A .028265376
+dig @103.4.128.8 macs.techcombank.com.vn A .028960041
+dig @103.4.130.8 macs.techcombank.com.vn A .028790121
+dig @103.4.128.8 mcorp.techcombank.com.vn A .028850698
+dig @103.4.130.8 mcorp.techcombank.com.vn A .029239855
+dig @103.4.128.8 mmisvstm.techcombank.com.vn A .029150348
+dig @103.4.130.8 mmisvstm.techcombank.com.vn A .028029430
+dig @103.4.128.8 mplus.techcombank.com.vn A .028107891
+dig @103.4.130.8 mplus.techcombank.com.vn A .025918475
+dig @103.4.128.8 mpluscustomer.techcombank.com.vn A .027548892
+dig @103.4.130.8 mpluscustomer.techcombank.com.vn A .027925571
+dig @103.4.128.8 mstatic.techcombank.com.vn A .028846394
+dig @103.4.130.8 mstatic.techcombank.com.vn A .027836116
+dig @103.4.128.8 pib.techcombank.com.vn A .027617332
+dig @103.4.130.8 pib.techcombank.com.vn A .026505733
+dig @103.4.128.8 pmss.techcombank.com.vn A .027898752
+dig @103.4.130.8 pmss.techcombank.com.vn A .029041998
+dig @103.4.128.8 ras.techcombank.com.vn A .027604168
+dig @103.4.130.8 ras.techcombank.com.vn A .027587263
+dig @103.4.128.8 redlink.techcombank.com.vn A .027934236
+dig @103.4.130.8 redlink.techcombank.com.vn A .029704775
+dig @103.4.128.8 salesupport.techcombank.com.vn A .025363403
+dig @103.4.130.8 salesupport.techcombank.com.vn A .028975788
+dig @103.4.128.8 scf.techcombank.com.vn A .028007710
+## NXDOMAIN returned
+
+; <<>> DiG 9.11.4-P2-RedHat-9.11.4-9.P2.amzn2.0.2 <<>> @103.4.128.8 scf.techcombank.com.vn A
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 36731
+;; flags: qr aa rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1280
+;; QUESTION SECTION:
+;scf.techcombank.com.vn.		IN	A
+
+;; AUTHORITY SECTION:
+techcombank.com.vn.	120	IN	SOA	ns1.techcombank.com.vn. vietdd2.techcombank.com.vn. 2014091801 3600 120 86400 120
+
+;; Query time: 21 msec
+;; SERVER: 103.4.128.8#53(103.4.128.8)
+;; WHEN: Tue Feb 11 04:44:21 UTC 2020
+;; MSG SIZE  rcvd: 135
+
+####################
+dig @103.4.130.8 scf.techcombank.com.vn A .028791923
+## NXDOMAIN returned
+
+; <<>> DiG 9.11.4-P2-RedHat-9.11.4-9.P2.amzn2.0.2 <<>> @103.4.130.8 scf.techcombank.com.vn A
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 49900
+;; flags: qr aa rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1280
+;; QUESTION SECTION:
+;scf.techcombank.com.vn.		IN	A
+
+;; AUTHORITY SECTION:
+techcombank.com.vn.	120	IN	SOA	ns1.techcombank.com.vn. vietdd2.techcombank.com.vn. 2014091801 3600 120 86400 120
+
+;; Query time: 22 msec
+;; SERVER: 103.4.130.8#53(103.4.130.8)
+;; WHEN: Tue Feb 11 04:44:21 UTC 2020
+;; MSG SIZE  rcvd: 135
+
+####################
+dig @103.4.128.8 survey.techcombank.com.vn A .027190138
+dig @103.4.130.8 survey.techcombank.com.vn A .028151100
+dig @103.4.128.8 tcsavings.techcombank.com.vn A .027740581
+dig @103.4.130.8 tcsavings.techcombank.com.vn A .028536289
+dig @103.4.128.8 techcombank.com.vn A .028093270
+dig @103.4.130.8 techcombank.com.vn A .028489757
+dig @103.4.128.8 tib.techcombank.com.vn A .028086785
+dig @103.4.130.8 tib.techcombank.com.vn A .027298089
+dig @103.4.128.8 vinhomes.techcombank.com.vn A .027907742
+dig @103.4.130.8 vinhomes.techcombank.com.vn A .028634276
+dig @103.4.128.8 www.redlink.techcombank.com.vn A .027642962
+dig @103.4.130.8 www.redlink.techcombank.com.vn A .028767084
+dig @103.4.128.8 www.techcombank.com.vn A .027656441
+dig @103.4.130.8 www.techcombank.com.vn A .028068559
+dig @103.4.128.8 jiramep.techcombank.com.vn A .027873969
+dig @103.4.130.8 jiramep.techcombank.com.vn A .029261351
+dig @103.4.128.8 api-test.techcombank.com.vn A .029786546
+dig @103.4.130.8 api-test.techcombank.com.vn A .028028063
+dig @103.4.128.8 mail1.techcombank.com.vn A .028081515
+dig @103.4.130.8 mail1.techcombank.com.vn A .028712341
+dig @103.4.128.8 webmail.marketing.techcombank.com.vn A .027595392
+dig @103.4.130.8 webmail.marketing.techcombank.com.vn A .027731260
+dig @103.4.128.8 webmail.techcombank.com.vn A .025227356
+dig @103.4.130.8 webmail.techcombank.com.vn A .025262240
+dig @103.4.128.8 confluencemep.techcombank.com.vn A .027804038
+dig @103.4.130.8 confluencemep.techcombank.com.vn A .029792560
+dig @103.4.128.8 ngayhoithethaodulich.techcombank.com.vn A .025202208
+dig @103.4.130.8 ngayhoithethaodulich.techcombank.com.vn A .028428779
+dig @103.4.128.8 legacy.techcombank.com.vn A .028375869
+dig @103.4.130.8 legacy.techcombank.com.vn A .029545808
+dig @103.4.128.8 chuongtrinhganketbenlau.techcombank.com.vn A .029435938
+dig @103.4.130.8 chuongtrinhganketbenlau.techcombank.com.vn A .028761620
+dig @103.4.128.8 nganhanguytin.techcombank.com.vn A .028257046
+dig @103.4.130.8 nganhanguytin.techcombank.com.vn A .028044655
+dig @103.4.128.8 gps.techcombank.com.vn A .028606473
+dig @103.4.130.8 gps.techcombank.com.vn A .027940115
+dig @103.4.128.8 its.techcombank.com.vn A .027880841
+## NXDOMAIN returned
+
+; <<>> DiG 9.11.4-P2-RedHat-9.11.4-9.P2.amzn2.0.2 <<>> @103.4.128.8 its.techcombank.com.vn A
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45147
+;; flags: qr aa rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1280
+;; QUESTION SECTION:
+;its.techcombank.com.vn.		IN	A
+
+;; AUTHORITY SECTION:
+techcombank.com.vn.	120	IN	SOA	ns1.techcombank.com.vn. vietdd2.techcombank.com.vn. 2014091801 3600 120 86400 120
+
+;; Query time: 21 msec
+;; SERVER: 103.4.128.8#53(103.4.128.8)
+;; WHEN: Tue Feb 11 04:44:22 UTC 2020
+;; MSG SIZE  rcvd: 135
+
+####################
+dig @103.4.130.8 its.techcombank.com.vn A .026204645
+dig @103.4.128.8 tcbftp.techcombank.com.vn A .028335436
+dig @103.4.130.8 tcbftp.techcombank.com.vn A .029411344
+dig @103.4.128.8 fastmobile.techcombank.com.vn A .025284529
+dig @103.4.130.8 fastmobile.techcombank.com.vn A .028059769
+dig @103.4.128.8 mdm.techcombank.com.vn A .027596394
+dig @103.4.130.8 mdm.techcombank.com.vn A .028099137
+dig @103.4.128.8 mail.techcombank.com.vn A .028588168
+dig @103.4.130.8 mail.techcombank.com.vn A .029284259
+dig @103.4.128.8 futures.techcombank.com.vn A .028216834
+dig @103.4.130.8 futures.techcombank.com.vn A .029136076
+dig @103.4.128.8 pos.techcombank.com.vn A .028191000
+dig @103.4.130.8 pos.techcombank.com.vn A .029200280
+dig @103.4.128.8 acstest.techcombank.com.vn A .028670678
+dig @103.4.130.8 acstest.techcombank.com.vn A .029305211
+dig @103.4.128.8 fmp.techcombank.com.vn A .027909621
+dig @103.4.130.8 fmp.techcombank.com.vn A .028734308
+dig @103.4.128.8 ras0.techcombank.com.vn A .028057792
+dig @103.4.130.8 ras0.techcombank.com.vn A .026763150
+dig @103.4.128.8 securities.techcombank.com.vn A .028888649
+dig @103.4.130.8 securities.techcombank.com.vn A .029795237
+dig @103.4.128.8 estm.techcombank.com.vn A .025063477
+dig @103.4.130.8 estm.techcombank.com.vn A .028992415
+dig @103.4.128.8 tlspos.techcombank.com.vn A .027975937
+dig @103.4.130.8 tlspos.techcombank.com.vn A .030398119
+dig @103.4.128.8 exp-e-01.techcombank.com.vn A .028025013
+dig @103.4.130.8 exp-e-01.techcombank.com.vn A .025077658
+dig @103.4.128.8 ras1.techcombank.com.vn A .029005445
+dig @103.4.130.8 ras1.techcombank.com.vn A .028029529
+dig @103.4.128.8 tmspos.techcombank.com.vn A .028703482
+dig @103.4.130.8 tmspos.techcombank.com.vn A .025308043
+dig @103.4.128.8 learning.techcombank.com.vn A .029334386
+dig @103.4.130.8 learning.techcombank.com.vn A .028748471
+dig @103.4.128.8 vincity.techcombank.com.vn A .029330635
+dig @103.4.130.8 vincity.techcombank.com.vn A .028817692
+dig @103.4.128.8 ns1.techcombank.com.vn A .027536392
+dig @103.4.130.8 ns1.techcombank.com.vn A .030556402
+dig @103.4.128.8 ns2.techcombank.com.vn A .024890450
+dig @103.4.130.8 ns2.techcombank.com.vn A .027414461
+dig @103.4.128.8 ebank.techcombank.com.vn A .027140420
+dig @103.4.130.8 ebank.techcombank.com.vn A .024930874
+dig @103.4.128.8 vpn.techcombank.com.vn A .028178707
+dig @103.4.130.8 vpn.techcombank.com.vn A .025126798
+dig @103.4.128.8 lotusapp.techcombank.com.vn A .029172426
+dig @103.4.130.8 lotusapp.techcombank.com.vn A .028871252
+dig @103.4.128.8 marketing.techcombank.com.vn A .027631884
+dig @103.4.130.8 marketing.techcombank.com.vn A .025571712
+dig @103.4.128.8 sftp.techcombank.com.vn A .029599561
+dig @103.4.130.8 sftp.techcombank.com.vn A .028602324
+dig @103.4.128.8 mail.mercuryservices.com.vn A .027826063
+dig @103.4.130.8 mail.mercuryservices.com.vn A .028206242
+dig @103.4.128.8 botlathem.techcombank.com.vn A .027415459
+dig @103.4.130.8 botlathem.techcombank.com.vn A .029063827
+dig @103.4.128.8 mbtest.techcombank.com.vn A .028597344
+dig @103.4.130.8 mbtest.techcombank.com.vn A .025274670
+dig @103.4.128.8 khuyenmaithe.techcombank.com.vn A .027758745
+dig @103.4.130.8 khuyenmaithe.techcombank.com.vn A .029127214
+dig @103.4.128.8 tracuubaolanh.techcombank.com.vn A .025252482
+dig @103.4.130.8 tracuubaolanh.techcombank.com.vn A .027938814
+dig @103.4.128.8 pos2019.techcombank.com.vn A .027689074
+dig @103.4.130.8 pos2019.techcombank.com.vn A .027862293
+################ CNAME ################
+dig @103.4.128.8 tech CNAME .028805356
+dig @103.4.130.8 tech CNAME .027605273
+dig @103.4.128.8 k1._domainkey.marketing.techcombank.com.vn CNAME .028022844
+dig @103.4.130.8 k1._domainkey.marketing.techcombank.com.vn CNAME .027762337
+################ PTR ################
+dig @103.4.128.8 89.128.4.103.in-addr.arpa PTR .028705140
+dig @103.4.130.8 89.128.4.103.in-addr.arpa PTR .028482109
+################ SRV ################
+dig @103.4.128.8 _collab-edge._tls.techcombank.com.vn SRV .028312142
+dig @103.4.130.8 _collab-edge._tls.techcombank.com.vn SRV .029019695
+################ TXT ################
+dig @103.4.128.8 _dmarc.marketing.techcombank.com.vn TXT .027855334
+dig @103.4.130.8 _dmarc.marketing.techcombank.com.vn TXT .028880351
+dig @103.4.128.8 techcombank.com.vn TXT .029194755
+dig @103.4.130.8 techcombank.com.vn TXT .029124208
+dig @103.4.128.8 techcombank.com.vn TXT .028231953
+dig @103.4.130.8 techcombank.com.vn TXT .030366085
+dig @103.4.128.8 marketing.techcombank.com.vn TXT .025753912
+dig @103.4.130.8 marketing.techcombank.com.vn TXT .025744897
+dig @103.4.128.8 marketing.techcombank.com.vn TXT .027710375
+dig @103.4.130.8 marketing.techcombank.com.vn TXT .027208047
+################ MX ################
+dig @103.4.128.8 testem.techcombank.com.vn MX .027900888
+dig @103.4.130.8 testem.techcombank.com.vn MX .028023014
+dig @103.4.128.8 techcombank.com.vn MX .025104511
+dig @103.4.130.8 techcombank.com.vn MX .026030868
+dig @103.4.128.8 techcombank.com.vn MX .027870111
+dig @103.4.130.8 techcombank.com.vn MX .027749747
+End test
+Number of error = 3
