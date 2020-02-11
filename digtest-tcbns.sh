@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# VNPT Local DNS
+# TCB DNS Directly
 dns1='103.4.128.8'
 dns2='103.4.130.8'
 errornum=0
@@ -23,6 +23,7 @@ echo "dig @$1 $2 $3 $runtime"
    cat tmpresult_$1_$2_$3.txt
    echo "####################"
  fi
+ rm tmpresult_$1_$2.txt
 }
 
 echo "Begin test"

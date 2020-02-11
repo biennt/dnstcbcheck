@@ -22,6 +22,7 @@ echo "dig @$1 $2 $3 $runtime"
    cat tmpresult_$1_$2_$3.txt
    echo "####################"
  fi
+ rm tmpresult_$1_$2_$3.txt
 }
 
 echo "Begin test"

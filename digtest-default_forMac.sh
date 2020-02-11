@@ -4,9 +4,9 @@
 errornum=0
 
 lookup() {
-start=`date +%s.%N`
+start=`date +%s`
  dig $1 $2 > tmpresult_$1_$2.txt
-end=`date +%s.%N`
+end=`date +%s`
 runtime=$(echo "$end - $start" | bc -l)
 echo "dig $1 $2 $runtime"
 
