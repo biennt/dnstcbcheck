@@ -6,9 +6,9 @@ dns2='103.4.130.44'
 errornum=0
 
 lookup() {
-start=`date +%s.%N`
+start=`date +%s`
  dig @$1 $2 $3 > tmpresult_$1_$2_$3.txt
-end=`date +%s.%N`
+end=`date +%s`
 runtime=$(echo "$end - $start" | bc -l)
 echo "dig @$1 $2 $3 $runtime"
  if [ $? -ne 0 ]
