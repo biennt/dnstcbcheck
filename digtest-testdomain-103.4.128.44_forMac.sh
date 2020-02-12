@@ -2,10 +2,9 @@
 
 # TCB DNS
 dns1='103.4.128.44'
-dns2='103.4.130.44'
-dns3='8.8.8.8'
-dns4='1.1.1.1'
-dns5='203.162.0.182'
+#dns2='103.4.130.44'
+dns5='203.113.131.1'
+dns6='203.113.131.2'
 errornum=0
 
 lookup() {
@@ -30,13 +29,14 @@ echo "dig @$1 $2 $3 $runtime"
 
 echo "Begin test"
 
-END=10000
+END=1000
 for ((i=1;i<=END;i++)); do
     lookup "$dns1" "ib.testtcb02.com.vn" "a"
-    lookup "$dns2" "ib.testtcb02.com.vn" "a"
-    lookup "$dns3" "ib.testtcb02.com.vn" "a"
-    lookup "$dns4" "ib.testtcb02.com.vn" "a"
+    #lookup "$dns2" "ib.testtcb02.com.vn" "a"
+    #lookup "$dns3" "ib.testtcb02.com.vn" "a"
+    #lookup "$dns4" "ib.testtcb02.com.vn" "a"
     lookup "$dns5" "ib.testtcb02.com.vn" "a"
+    lookup "$dns6" "ib.testtcb02.com.vn" "a"
 
 done
 
