@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.10.6 <<>> @8.8.8.8 ib.testtcb02.com.vn a
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45909
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ib.testtcb02.com.vn.		IN	A
+
+;; ANSWER SECTION:
+ib.testtcb02.com.vn.	3	IN	A	103.4.128.12
+
+;; Query time: 3 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Feb 12 15:25:37 +07 2020
+;; MSG SIZE  rcvd: 64
+
