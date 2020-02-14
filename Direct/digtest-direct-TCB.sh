@@ -3,8 +3,6 @@
 # TCB DNS Directly
 dns1='103.4.128.44'
 dns2='103.4.130.44'
-dns3='203.113.131.1'
-dns4='203.113.131.2'
 errornum=0
 
 lookup() {
@@ -31,13 +29,11 @@ echo "dig @$1 $2 $3 $runtime"
 echo "Begin test"
 for recordtype in NS A CNAME PTR SRV TXT MX; do
   echo "################ $recordtype ################"
-  filen="query$recordtype.txt"
+  filen="../query$recordtype.txt"
   while IFS= read -r line
     do
       lookup "$dns1" "$line" "$recordtype"
       lookup "$dns2" "$line" "$recordtype"
-      lookup "$dns3" "$line" "$recordtype"
-      lookup "$dns4" "$line" "$recordtype"
     done < $filen
 done
 echo "End test"
