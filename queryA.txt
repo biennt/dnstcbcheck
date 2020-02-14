@@ -22,7 +22,6 @@ mstatic.techcombank.com.vn
 pib.techcombank.com.vn
 pmss.techcombank.com.vn
 ras.techcombank.com.vn
-redlink.techcombank.com.vn
 salesupport.techcombank.com.vn
 scf.techcombank.com.vn
 survey.techcombank.com.vn
@@ -30,7 +29,6 @@ tcsavings.techcombank.com.vn
 techcombank.com.vn
 tib.techcombank.com.vn
 vinhomes.techcombank.com.vn
-www.redlink.techcombank.com.vn
 www.techcombank.com.vn
 jiramep.techcombank.com.vn
 api-test.techcombank.com.vn

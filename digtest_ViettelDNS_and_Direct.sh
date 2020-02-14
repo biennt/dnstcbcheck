@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# TCB DNS
+# TCB DNS Directly
 dns1='103.4.128.44'
-dns2='203.113.131.1'
-dns3='203.113.131.2'
-dns4='8.8.8.8'
+dns2='103.4.130.44'
+dns3='203.113.131.1'
+dns4='203.113.131.2'
 errornum=0
 
 lookup() {
@@ -13,6 +13,7 @@ start=`date +%s`
 end=`date +%s`
 runtime=$(echo "$end - $start" | bc -l)
 echo "dig @$1 $2 $3 $runtime"
+
  if [ $? -ne 0 ]
   then
     errornum=$(expr $errornum + 1)
@@ -28,15 +29,17 @@ echo "dig @$1 $2 $3 $runtime"
 }
 
 echo "Begin test"
-
-END=1000
-for ((i=1;i<=END;i++)); do
-    lookup "$dns1" "ib.testtcb02.com.vn" "a"
-    lookup "$dns2" "ib.testtcb02.com.vn" "a"
-    lookup "$dns3" "ib.testtcb02.com.vn" "a"
-    lookup "$dns4" "ib.testtcb02.com.vn" "a"
+for recordtype in NS A CNAME PTR SRV TXT MX; do
+  echo "################ $recordtype ################"
+  filen="query$recordtype.txt"
+  while IFS= read -r line
+    do
+      lookup "$dns1" "$line" "$recordtype"
+      lookup "$dns2" "$line" "$recordtype"
+      lookup "$dns3" "$line" "$recordtype"
+      lookup "$dns4" "$line" "$recordtype"
+    done < $filen
 done
-
 echo "End test"
 echo "Number of error = $errornum"
 
